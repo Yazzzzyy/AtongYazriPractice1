@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src= "js/send.js"></script>
+</head>
+<body>
+
+
+    <form>
+        <p> Event type: <label> <select id="list" >
+                <option value ="1"> Choose one </option>
+        </select>
+        </label> 
+        </p>
+        <p> Event title: <input type ="text" id="text" />
+        </p>  
+        <p>Event dates <input type="text" id="text1"/> to <input type="text" id ="text2"/>
+        </p>
+        <p> Posting date: <input type="text" id="text3" 
+        </p>
+        <p> <input type="checkbox" id="check"/> Is the registration required?
+        </p>
+        <p> <input type="checkbox" id="check1"/> Is this event associated with any family programs?
+        </p>
+        <p> <input type="checkbox" id="check2"/> Upon registration completion, are users to recieve an auto generated email?
+        </p>
+        <p> <input type="checkbox" id="check3"/> Is there a point of contact? 
+        </p>
+        <p> <input type="checkbox" id="check4"/> Is there a hosting command point of contact?
+        </p>
+
+            <center> <button onclick="sendFunction()">   Save     </button> <button>     Cancel      </button></center>
+
+
+
+
+    </form>
+    
+</body>
+</html>
